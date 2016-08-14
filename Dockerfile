@@ -15,7 +15,7 @@ RUN apt-get update  \
     && mkdir -p /app
 
 COPY app/index.php /app/
-COPY config/php.ini-production /usr/local/etc/php/
+COPY config/php.ini-production /usr/local/etc/php/php.ini
 
 
 EXPOSE 9002
